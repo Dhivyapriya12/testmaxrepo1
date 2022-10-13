@@ -1,0 +1,558 @@
+{
+   "pipeline_info": {
+      "integration_id": 96
+   },
+   "source_details": {
+      "source_id": 27,
+      "table_schema": "configuration_service",
+      "table_list": [
+         {
+            "table_name": "cities",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "state_id": [
+                  "state_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "countries",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "currency_sign": [
+                  "currency_sign",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "currency_code": [
+                  "currency_code",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "currency_name": [
+                  "currency_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "country_code": [
+                  "country_code",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "calling_code": [
+                  "calling_code",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "codes_flags": [
+                  "codes_flags",
+                  "uuid",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "objects",
+            "refresh_type": "complete",
+            "metadata": {
+               "definition": [
+                  "definition",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "platforms",
+            "refresh_type": "complete",
+            "metadata": {
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "comment": [
+                  "comment",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "country_id": [
+                  "country_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "account_id": [
+                  "account_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "reasons",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "reason": [
+                  "reason",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "definition": [
+                  "definition",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "status_id": [
+                  "status_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "service_types",
+            "refresh_type": "complete",
+            "metadata": {
+               "price_per_km": [
+                  "price_per_km",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "price_per_minute": [
+                  "price_per_minute",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "base_price": [
+                  "base_price",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "base_distance": [
+                  "base_distance",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "base_distance_price": [
+                  "base_distance_price",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "service_type": [
+                  "service_type",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "deleted_at": [
+                  "deleted_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "image_url": [
+                  "image_url",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "description": [
+                  "description",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "passengers": [
+                  "passengers",
+                  "integer",
+                  "False",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "states",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "country_id": [
+                  "country_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "status",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "definition": [
+                  "definition",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "object_id": [
+                  "object_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "subcities",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "city_id": [
+                  "city_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "code": [
+                  "code",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "sub_reasons",
+            "refresh_type": "complete",
+            "metadata": {
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "definition": [
+                  "definition",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "reason_id": [
+                  "reason_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "update_column_list": [
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "27",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 34,
+      "project_id": "quiet-sanctuary-363305",
+      "bucket": "max-dev",
+      "gcp_conn_id": "34",
+      "bq_dataset": "configuration_service"
+   }
+}
