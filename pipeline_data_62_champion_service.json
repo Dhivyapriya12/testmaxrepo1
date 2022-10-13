@@ -1,0 +1,632 @@
+{
+   "pipeline_info": {
+      "integration_id": 62
+   },
+   "source_details": {
+      "source_id": 27,
+      "table_schema": "champion_service",
+      "table_list": [
+         {
+            "table_name": "champions",
+            "refresh_type": "complete",
+            "metadata": {
+               "account_id": [
+                  "account_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "bank_account_name": [
+                  "bank_account_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bank_account_number": [
+                  "bank_account_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bank_name": [
+                  "bank_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bvn": [
+                  "bvn",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_status": [
+                  "champion_status",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "city": [
+                  "city",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "contract_url": [
+                  "contract_url",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "contractor_id": [
+                  "contractor_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "date_disengaged": [
+                  "date_disengaged",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "date_engaged": [
+                  "date_engaged",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "date_of_birth": [
+                  "date_of_birth",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "deleted_at": [
+                  "deleted_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "delivery_service_id": [
+                  "delivery_service_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "emergency_contact_name": [
+                  "emergency_contact_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "emergency_contact_number": [
+                  "emergency_contact_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "generated_contract_url": [
+                  "generated_contract_url",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "has_insurance": [
+                  "has_insurance",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "helmet_number": [
+                  "helmet_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "house_address": [
+                  "house_address",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "is_driver_license": [
+                  "is_driver_license",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "marital_status": [
+                  "marital_status",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "max_champion_id": [
+                  "max_champion_id",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "meta": [
+                  "meta",
+                  "json",
+                  "True",
+                  "False"
+               ],
+               "next_of_kin_name": [
+                  "next_of_kin_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "next_of_kin_phone": [
+                  "next_of_kin_phone",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "package_id": [
+                  "package_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "phone_brand": [
+                  "phone_brand",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "phone_ime_number": [
+                  "phone_ime_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "prospective_champion_id": [
+                  "prospective_champion_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "rating": [
+                  "rating",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "reason_id": [
+                  "reason_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "registration_number": [
+                  "registration_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "service_id": [
+                  "service_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "state_of_birth": [
+                  "state_of_birth",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "state_of_origin": [
+                  "state_of_origin",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "status_id": [
+                  "status_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "welfare_analyst_id": [
+                  "welfare_analyst_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "prospective_champions",
+            "refresh_type": "complete",
+            "metadata": {
+               "has_ridden220c": [
+                  "has_ridden220c",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "image": [
+                  "image",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "in_recovery": [
+                  "in_recovery",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "keep_count": [
+                  "keep_count",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "last_name": [
+                  "last_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "activated": [
+                  "activated",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "active": [
+                  "active",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "address": [
+                  "address",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "age": [
+                  "age",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "agent_id": [
+                  "agent_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "alternate_phone": [
+                  "alternate_phone",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "asset_id": [
+                  "asset_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "asset_ridden_before": [
+                  "asset_ridden_before",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "city": [
+                  "city",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "date_of_birth": [
+                  "date_of_birth",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "datetime_available_for_test": [
+                  "datetime_available_for_test",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "deleted_at": [
+                  "deleted_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "email": [
+                  "email",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "entry_channel_id": [
+                  "entry_channel_id",
+                  "integer",
+                  "False",
+                  "False"
+               ],
+               "final_status": [
+                  "final_status",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "first_name": [
+                  "first_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "gender": [
+                  "gender",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "location": [
+                  "location",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "no_show_count": [
+                  "no_show_count",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "password": [
+                  "password",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "phone": [
+                  "phone",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "photo_url": [
+                  "photo_url",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "preferred_location_for_test": [
+                  "preferred_location_for_test",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "prospective_id": [
+                  "prospective_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "recovery_reason": [
+                  "recovery_reason",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "retrain": [
+                  "retrain",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "stage": [
+                  "stage",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "stage_status": [
+                  "stage_status",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "sub_stage": [
+                  "sub_stage",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "vehicle_option_id": [
+                  "vehicle_option_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bvn": [
+                  "bvn",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bvn_address": [
+                  "bvn_address",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "bvn_information": [
+                  "bvn_information",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "city_id": [
+                  "city_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "comment": [
+                  "comment",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "country_id": [
+                  "country_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "disabilities": [
+                  "disabilities",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "driver_license_expiry_date": [
+                  "driver_license_expiry_date",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "driver_license_number": [
+                  "driver_license_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "id_card": [
+                  "id_card",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "is_bvn_verified": [
+                  "is_bvn_verified",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "languages": [
+                  "languages",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "passport": [
+                  "passport",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "prev_stage": [
+                  "prev_stage",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "ride_hailing_service": [
+                  "ride_hailing_service",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "utility_bill": [
+                  "utility_bill",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "verification_comment": [
+                  "verification_comment",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "verification_meta": [
+                  "verification_meta",
+                  "jsonb",
+                  "True",
+                  "False"
+               ],
+               "verification_reason": [
+                  "verification_reason",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         "",
+         ""
+      ],
+      "update_column_list": [
+         "",
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "27",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 29,
+      "project_id": "max-infra-staging",
+      "bucket": "max-infra-staging-prod-new",
+      "gcp_conn_id": "29",
+      "bq_dataset": "champion_service"
+   }
+}
