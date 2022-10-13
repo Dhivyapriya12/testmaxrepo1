@@ -1,0 +1,48 @@
+{
+   "pipeline_info": {
+      "integration_id": 85
+   },
+   "source_details": {
+      "source_id": 31,
+      "table_schema": "configuration_service",
+      "table_list": [
+         {
+            "table_name": "gender",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "False"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         ""
+      ],
+      "update_column_list": [
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "31",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 34,
+      "project_id": "quiet-sanctuary-363305",
+      "bucket": "max-dev",
+      "gcp_conn_id": "34",
+      "bq_dataset": "configuration_service"
+   }
+}
