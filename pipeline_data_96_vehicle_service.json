@@ -1,0 +1,1078 @@
+{
+   "pipeline_info": {
+      "integration_id": 96
+   },
+   "source_details": {
+      "source_id": 27,
+      "table_schema": "vehicle_service",
+      "table_list": [
+         {
+            "table_name": "asset_classes",
+            "refresh_type": "complete",
+            "metadata": {
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ]
+            }
+         },
+         {
+            "table_name": "champion_vehicle_histories",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "character varying",
+                  "False",
+                  "True"
+               ],
+               "vehicle_id": [
+                  "vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_id": [
+                  "champion_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "action": [
+                  "action",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "checklist",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "status": [
+                  "status",
+                  "text",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "manufacturers",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "max_locations",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "code": [
+                  "code",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "models",
+            "refresh_type": "complete",
+            "metadata": {
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "vehicle_type_id": [
+                  "vehicle_type_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "manufacturer_id": [
+                  "manufacturer_id",
+                  "integer",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "plate_number_histories",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "character varying",
+                  "False",
+                  "True"
+               ],
+               "vehicle_id": [
+                  "vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "plate_number": [
+                  "plate_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "user_account",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "user_account_id": [
+                  "user_account_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "role_id": [
+                  "role_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "city_id": [
+                  "city_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "email": [
+                  "email",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "status": [
+                  "status",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_daily_status_reports",
+            "refresh_type": "complete",
+            "metadata": {
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "character varying",
+                  "False",
+                  "True"
+               ],
+               "day_stamp": [
+                  "day_stamp",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "vehicle_id": [
+                  "vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "max_vehicle_id": [
+                  "max_vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "max_global_id": [
+                  "max_global_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "device_imei": [
+                  "device_imei",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "plate_number": [
+                  "plate_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_phone": [
+                  "champion_phone",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_email": [
+                  "champion_email",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_name": [
+                  "champion_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "vehicle_type": [
+                  "vehicle_type",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "trim": [
+                  "trim",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "vehicle_status": [
+                  "vehicle_status",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "manufacturer": [
+                  "manufacturer",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "model": [
+                  "model",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "gps_datetime": [
+                  "gps_datetime",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "server_datetime": [
+                  "server_datetime",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "latitude": [
+                  "latitude",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "longitude": [
+                  "longitude",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "speed": [
+                  "speed",
+                  "real",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_movement_checklist",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "checklist_id": [
+                  "checklist_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "vehicle_id": [
+                  "vehicle_id",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "vehicle_movement_id": [
+                  "vehicle_movement_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_movement_reasons",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "explanation": [
+                  "explanation",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "parent_id": [
+                  "parent_id",
+                  "integer",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_movements",
+            "refresh_type": "complete",
+            "metadata": {
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "reason": [
+                  "reason",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "location_from_id": [
+                  "location_from_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "location_to_id": [
+                  "location_to_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "checklist_items": [
+                  "checklist_items",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "transfer_status": [
+                  "transfer_status",
+                  "text",
+                  "True",
+                  "False"
+               ],
+               "amount_defaulted": [
+                  "amount_defaulted",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "character varying",
+                  "False",
+                  "True"
+               ],
+               "vehicle_id": [
+                  "vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "plate_numer": [
+                  "plate_numer",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "vehicle_type": [
+                  "vehicle_type",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "location_name": [
+                  "location_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "movement_type": [
+                  "movement_type",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "movement_type_from": [
+                  "movement_type_from",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "retrieval_agent": [
+                  "retrieval_agent",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "odometer": [
+                  "odometer",
+                  "real",
+                  "True",
+                  "False"
+               ],
+               "creator_email": [
+                  "creator_email",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "creator_id": [
+                  "creator_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "creator_name": [
+                  "creator_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicles",
+            "refresh_type": "complete",
+            "metadata": {
+               "batch_id": [
+                  "batch_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "trim_id": [
+                  "trim_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "device_phone": [
+                  "device_phone",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "max_global_id": [
+                  "max_global_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "sim_network_id": [
+                  "sim_network_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "vehicle_movement": [
+                  "vehicle_movement",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "platform_id": [
+                  "platform_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "vehicle_status_id": [
+                  "vehicle_status_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "location_id": [
+                  "location_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "latest_vehicle_movement_id": [
+                  "latest_vehicle_movement_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "last_date_activated": [
+                  "last_date_activated",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "partners": [
+                  "partners",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "ignition_number": [
+                  "ignition_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "vehicle_colour": [
+                  "vehicle_colour",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "OEM_vendor_name": [
+                  "OEM_vendor_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "receiver": [
+                  "receiver",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "financial_partner_id": [
+                  "financial_partner_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "character varying",
+                  "False",
+                  "True"
+               ],
+               "max_vehicle_id": [
+                  "max_vehicle_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "engine_number": [
+                  "engine_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "plate_number": [
+                  "plate_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "device_imei": [
+                  "device_imei",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "sim_serial_no": [
+                  "sim_serial_no",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "chassis_no": [
+                  "chassis_no",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "champion_id": [
+                  "champion_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "service_type": [
+                  "service_type",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "is_max_vehicle": [
+                  "is_max_vehicle",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "documents_file_names_csv": [
+                  "documents_file_names_csv",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "license_expiration_date": [
+                  "license_expiration_date",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "year": [
+                  "year",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "model_number": [
+                  "model_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "pricing_template_id": [
+                  "pricing_template_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "hpv_id": [
+                  "hpv_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "pv_id": [
+                  "pv_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "vehicle_type_id": [
+                  "vehicle_type_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "model_id": [
+                  "model_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "manufacturer_id": [
+                  "manufacturer_id",
+                  "integer",
+                  "True",
+                  "False"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_statuses",
+            "refresh_type": "complete",
+            "metadata": {
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ]
+            }
+         },
+         {
+            "table_name": "vehicle_types",
+            "refresh_type": "complete",
+            "metadata": {
+               "id": [
+                  "id",
+                  "integer",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "code": [
+                  "code",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "slug": [
+                  "slug",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "asset_class_id": [
+                  "asset_class_id",
+                  "integer",
+                  "True",
+                  "False"
+               ],
+               "user_id": [
+                  "user_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "update_column_list": [
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "27",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 34,
+      "project_id": "quiet-sanctuary-363305",
+      "bucket": "max-dev",
+      "gcp_conn_id": "34",
+      "bq_dataset": "vehicle_service"
+   }
+}
