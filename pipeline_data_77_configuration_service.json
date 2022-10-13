@@ -1,0 +1,72 @@
+{
+   "pipeline_info": {
+      "integration_id": 77
+   },
+   "source_details": {
+      "source_id": 31,
+      "table_schema": "configuration_service",
+      "table_list": [
+         {
+            "table_name": "cities",
+            "refresh_type": "complete",
+            "metadata": {
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "deleted_at": [
+                  "deleted_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "name": [
+                  "name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "state_id": [
+                  "state_id",
+                  "uuid",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         ""
+      ],
+      "update_column_list": [
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "31",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 34,
+      "project_id": "quiet-sanctuary-363305",
+      "bucket": "max-dev",
+      "gcp_conn_id": "34",
+      "bq_dataset": "configuration_service"
+   }
+}
