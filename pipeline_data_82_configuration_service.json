@@ -4,7 +4,7 @@
    },
    "source_details": {
       "source_id": 31,
-      "table_schema": "configuration_service",
+      "table_schema": "configuration_servicesss",
       "table_list": [
          {
             "table_name": "codes_flags",
