@@ -1,0 +1,162 @@
+{
+   "pipeline_info": {
+      "integration_id": 99
+   },
+   "source_details": {
+      "source_id": 31,
+      "table_schema": "champion_service",
+      "table_list": [
+         {
+            "table_name": "onboarding_users",
+            "refresh_type": "incremental",
+            "metadata": {
+               "bvn": [
+                  "bvn",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "agent_code": [
+                  "agent_code",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "role_function": [
+                  "role_function",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "recent_prospect": [
+                  "recent_prospect",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "creator_id": [
+                  "creator_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "account_name": [
+                  "account_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "created_at": [
+                  "created_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "updated_at": [
+                  "updated_at",
+                  "timestamp with time zone",
+                  "False",
+                  "False"
+               ],
+               "deleted_at": [
+                  "deleted_at",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "account_number": [
+                  "account_number",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "last_login": [
+                  "last_login",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "password_updated": [
+                  "password_updated",
+                  "boolean",
+                  "True",
+                  "False"
+               ],
+               "bank_name": [
+                  "bank_name",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "id": [
+                  "id",
+                  "uuid",
+                  "False",
+                  "True"
+               ],
+               "role": [
+                  "role",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "city": [
+                  "city",
+                  "character varying",
+                  "True",
+                  "False"
+               ],
+               "status": [
+                  "status",
+                  "character varying",
+                  "False",
+                  "False"
+               ],
+               "account_id": [
+                  "account_id",
+                  "uuid",
+                  "True",
+                  "False"
+               ],
+               "date_engaged": [
+                  "date_engaged",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "date_disengaged": [
+                  "date_disengaged",
+                  "timestamp with time zone",
+                  "True",
+                  "False"
+               ],
+               "city_id": [
+                  "city_id",
+                  "character varying",
+                  "True",
+                  "False"
+               ]
+            }
+         }
+      ],
+      "primary_or_date_column_list": [
+         ""
+      ],
+      "update_column_list": [
+         ""
+      ],
+      "export_format": "csv",
+      "use_server_side_cursor": true,
+      "cursor_itersize": 2000,
+      "postgres_conn_id": "31",
+      "delete_key": "",
+      "batch_size": 20000
+   },
+   "destination_details": {
+      "dest_id": 34,
+      "project_id": "quiet-sanctuary-363305",
+      "bucket": "max-dev",
+      "gcp_conn_id": "34",
+      "bq_dataset": "champion_service"
+   }
+}
